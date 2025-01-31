@@ -1,93 +1,98 @@
-# Problem Statement 
+# 📊 Canada Retail Store Sales Analysis
 
-   # Activity 1                                                                   
+# 🎯 Problem Statement
 
-one of Canada’s largest retail stores. You have gotten a dataset on the supermarket's sales for various regions in the country. You want to know which product subcategories are making the company more profits and which are making it heavy losses.
+A leading retail store in Canada wants to analyze sales & profitability across various regions. The goal is to:
 
-If you get these insights, you may decide to either discontinue the loss making subcategories of products or come up with some other business strategy based on your derived insights.
+✔ Identify the most profitable product subcategories to maximize revenue.
 
+✔ Detect loss-making subcategories to decide whether to discontinue or optimize them.
 
+# 📂 Dataset Overview
 
+📌 Regions & Provinces – Sales data is divided into major Canadian regions & provinces.
 
+📌 Product Base Margin – Profit margin per product.
 
-Most of the data headers are self-explanatory. However, for clarity, the following are the meanings of a few data headers:
+📌 Customer Segments – Includes Corporate, Home Office, Small Business, and Consumer.
 
-Region: Analogous to a large state in Canada
+# 🔄 Activity 1: Data Cleaning & Report Formatting
 
-Province: A district within Region
+ 📌 Section 1: Basic Formatting
 
-Product Base Margin: Profit margin on a product
+✅ Adjust column widths for readability.
 
-
-# Section 1: Basic Formatting
-Increase the column widths to appropriate sizes so that they are readable
-
-Format the header row in a suitable colour and put borders around the header row cells
-
-
-# Section 2: Filtering
-Filter the data by customer segment
-
-Create four new worksheets, one for each customer segment
-
-Copy raw data of each customer segment into the respective worksheet
-Now you’ll have four individual sheets, one for each customer segment. For this assignment, you only have to work with the Corporate customer segment (for Activity 1).
-
-# Section 3: Report Making - I
-
-Freeze the header row
-
-Delete or hide any unwanted columns
-
-Hint: Decide judiciously between which columns should be deleted / hidden. Read the whole problem statement multiple times to figure this out.
-
-Round off sales and profits to one decimal place
-
-Format sales and profit in US dollar units
-
-Format the Order Date and Ship Date into a more readable format (say 15-Jan 2012, or choose a format that you find the most readable)
+✅ Style the header row with colors & apply borders.
 
 
+📌 Section 2: Filtering & Segmenting
 
-# Section 4: Report Making - II
-Sorting:
+✅ Filter data by customer segment (Corporate, Home Office, Small Business, Consumer).
 
-Sort alphabetically by Region
+✅ Create 4 separate sheets, one for each segment.
 
-Within Region, sort alphabetically by Province
+✅ Work only with the Corporate segment for analysis.
 
-Within Province, sort in decreasing order of sales
+📌 Section 3: Report Preparation - I
 
-Conditional Formatting - I:
+✅ Freeze the header row for easy navigation.
 
-Within each Region, within each Province, highlight the top 10% orders by sales in light green fill and dark green border
+✅ Hide/delete unnecessary columns for better clarity.
 
-Conditional Formatting - II:
+✅ Round off sales & profits to one decimal place.
 
-To help your manager understand profits better, highlight profits on a scale of green and losses on a scale of red (Higher the profit, darker the shade of green; More the loss, darker the shade of red).
+✅ Format sales & profits in USD.
 
+✅ Change Order Date & Ship Date to a more readable format (e.g., 15-Jan-2012).
 
-# Section 5: Report Making - III
-Apply double bottom borders to demarcate every Region
+📌 Section 4: Report Preparation - II
 
-  
-  
-  # Activity 2     
+✔ Sorting:
 
+Alphabetically by Region
 
-# 1. High-Profit Categories 
+Within each Region, sort by Province
 
-In this section, you want to identify the most profitable product sub-categories across each region. 
+Within Province, sort by sales in decreasing order
 
-Using PIVOT Table, find the top 3 most profitable Product Sub-Categories in each region. 
-Optional: Compare the profit for each of the top 3 profitable product subcategories by region:
-Which subcategories are profitable in most regions?
-Sort the rows and columns by profit and apply Conditional Formatting. Does this throw up some exceptions?
-# 2. Loss Making Categories
+✔ Conditional Formatting - I:
 
-Say you want to identify the least profitable (most loss-making) product subcategories and, if needed, stop selling those product subcategories in the regions where they are the least profitable.
+Highlight the top 10% orders by sales (light green fill, dark green border).
 
-Find the most loss-making Product Sub-Categories across all regions
-For these subcategories, identify the regions where they are the least profitable
-Optional: Articulate your observations and identify any anomalies that you observe
-Food for thought: People mostly buy tables and chairs together; carefully analyse the business angle of these product categories and form hypotheses to explain your observations
+✔ Conditional Formatting - II:
+
+Profit: Green for high profits, Red for losses (Darker shade for extreme values).
+
+📌 Section 5: Report Preparation - III
+
+✅ Apply double bottom borders to separate each region visually.
+
+# 🔄 Activity 2: Profitability & Loss Analysis
+
+📌 1. High-Profit Categories
+
+✅ Use Pivot Tables to find the Top 3 most profitable product subcategories in each region.
+
+✅ Compare profits across regions and identify trends & exceptions.
+
+✅ Apply Conditional Formatting to highlight extreme profit values.
+
+📌 2. Loss-Making Categories
+
+✅ Identify least profitable (highest loss) subcategories.
+
+✅ Determine which regions contribute the most to losses.
+
+✅ Analyze product bundling patterns (e.g., Tables & Chairs) to understand business impact.
+
+# 🚀 Key Business Insights
+
+✔ Most profitable product subcategories can be further promoted for revenue growth.
+
+✔ Loss-making categories need a strategic review (discontinue or optimize sales approach).
+
+✔ Bundling opportunities (e.g., Tables & Chairs) should be explored to increase profitability.
+
+🔹 Future Scope:
+🚀 Implement advanced data visualization in Power BI for deeper insights.
+🚀 Use predictive analytics to forecast future sales & profitability trends.
